@@ -1,0 +1,35 @@
+body{
+    background-color: #c1e0f4;
+    font-family: Helvetica;
+    font-size: 1.2em;
+}
+.container { 
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 4000px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 250px;
+    height:200px;
+}
+#one{
+    float: left;
+    margin: 4px;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+}
+
+#two{
+    float: right;
+    margin: 4px;
+    text-align: center;
+    width: 65%;
+    height: 100%;
+}
