@@ -1,9 +1,9 @@
 body{
     background-color: #c1e0f4;
     font-family: Helvetica;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
-.container { 
+.article { 
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +12,10 @@ body{
     justify-content: space-between;
     align-items: center;
     justify-content: space-between;
+}
+
+.article h2{
+    font-size: 25px bold black;
 }
 
 img{
