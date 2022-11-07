@@ -2,7 +2,6 @@ img{
     position: static;
     width: 100%;
     height: 250px;
-
 }
 
 #LSTN{
@@ -26,10 +25,6 @@ img{
 }
 .article li{
     line-height: 1.4;
-}
-
-.article h1{
-    text-align: center;
 }
 
 #one{
