@@ -1,18 +1,11 @@
-body{
-    background-color: #c1e0f4;
-    font-family: Helvetica;
-    font-size: 1em;
-}
-.article { 
+.article {
+    font-size: 1em; 
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    min-width: 400px;
-    max-width: 4000px;
-    justify-content: space-between;
     align-items: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 hr{
@@ -27,10 +20,10 @@ img{
 #one{
     grid-row: 1 / 2;
     background-color: lightgray;
+    padding-left: 2%;
+    padding-right: 2%;
     float: left;
-    margin: 4px;
-    width: 30%;
-    height: 100%;
+    order: 1;
 }
 
 #two{
@@ -38,4 +31,7 @@ img{
     margin: 4px;
     width: 65%;
     height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    order: 2;
 }
